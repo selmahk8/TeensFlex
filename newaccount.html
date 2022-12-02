@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create new account</title>
+    <link rel="stylesheet" href="newuser.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <center>  <a href="index.html"> <img src="img/logo.png" class="logo" alt=""/> </a> </center> 
+
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <center><h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Tu as une suggestion, une idée ? tu as un problème sur le site ?
+			      <br>Tu peux nous contacter avec les moyens ci-dessous !
+          </p> </center>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>Paris, France</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>teensflex@contact.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>+33 6 12 34 56 78</p>
+            </div>
+          </div>
+
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <br> <center><a href="index.html" type="button" class="button">Se connecter</a></center>
+
+        </div>
+
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="newaccount.php" autocomplete="on*" method="post">
+            <center><h3 class="title">Créer un nouveau compte</h3></center>
+            <div class="input-container">
+              <input type="text" name="username" class="input" required/>
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" required/>
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="password" name="password" class="input" required/>
+              <label for="">Password</label>
+              <span>Password</span>
+            </div>
+
+			<div class="input-container">
+				<input type="number" name="phone" class="input" />
+				<label for="">Phone</label>
+				<span>Phone</span>
+			</div>
+
+			<div class="input-container">
+				<input type="date" name="date" class="input" required/>
+				<label for="">Birth date</label>
+				<span>Birth Date</span>
+			</div>
+
+           <!-- <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div> -->
+            
+            
+            <center><a href="welcomeuser.html" type="submit" class="btn">Créer mon compte</a></center>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="newuser.js"></script>
+  </body>
+</html>
